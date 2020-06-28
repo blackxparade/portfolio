@@ -1,0 +1,57 @@
+@font-face {
+    font-family: TradeGothic;
+    src: url("res/TradeGothicLTStd-BoldExt.otf") format("opentype");
+}
+
+body {
+  background-color: #222222;
+  
+}
+h1 {
+  color: #CDCABB;
+  text-transform: uppercase;
+  font-family: 'TradeGothic', sans-serif;
+  font-size: 85px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #F36622;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+div.graphic {
+  position: absolute;
+}
+
+div.textcont {
+  position: absolute;
+  text-align: right;
+  margin-left: 55%;
+  margin-top: 5%;
+}
+
+div.scrollmenu {
+  margin-top: 75%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  font-family: 'TradeGothic', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  color: #F36622;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  color: #CDCABB;
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+}
